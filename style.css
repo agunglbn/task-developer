@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  table {
+    width: 60%; 
+    border-collapse: collapse;
+    font-size: medium;
+    margin-bottom: 20px; /* Menambahkan margin bawah agar tidak rapat dengan button */
+  }
+
+  th, td {
+    border: 2px solid #add8e6; /* Warna biru muda pada garis table */
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #add8e6; /* Warna biru muda pada title */
+    color: #050505; /* Warna text hitam pada title */
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4ca0af; /* Warna hijau */
+    color: #fff; /* Warna teks putih */
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049; /* Warna hijau lebih gelap saat dihover */
+  }
+  .container {
+    display: flex;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 0 20px;
+}
+
+.box.red {
+    background-color: red;
+}
+
+.box.blue {
+    background-color: rgb(50, 134, 243);
+}
